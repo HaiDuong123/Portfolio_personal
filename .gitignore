@@ -1,1 +1,16 @@
-node_modules
+# Ignore node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs and temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.env
+.DS_Store
+
+# VSCode config (optional)
+.vscode/
